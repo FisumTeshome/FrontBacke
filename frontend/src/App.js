@@ -22,30 +22,4 @@ function App(){
     </div>
   );
 }
-/*import React, { useState, useEffect } from 'react';
-
-function App() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:8081/student')
-      .then(res => res.json())
-      .then(data => {
-        setData(data);  // Update the state with the fetched data
-      })
-      .catch(err => console.log(err));
-  }, []);
-
-  return (
-    <div>
-      {data.map(d => (
-        <div key={d.id}> {/* Ensure each child has a unique key prop }
-          <p>{d.Name}</p>
-          <p>{d.email}</p>
-        </div>
-      ))}
-    </div>
-  );
-}*/
-
 export default App;
